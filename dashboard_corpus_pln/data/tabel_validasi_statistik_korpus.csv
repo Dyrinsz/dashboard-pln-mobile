@@ -1,0 +1,10 @@
+Indikator,Nilai,Keterangan
+Jumlah dokumen,338793.0,ulasan lolos praproses
+Total token,3067816.0,seluruh kemunculan kata
+Ukuran vocabulary,51749.0,jumlah tipe kata unik
+Type Token Ratio,0.01687,keragaman kosakata
+Hapax legomena,26593.0,kata berfrekuensi satu
+Rata-rata token per dokumen,9.06,panjang rerata ulasan
+OOV tipe kata (persen),76.49,terhadap vocabulary IndoBERT
+OOV token (persen),7.45,terhadap vocabulary IndoBERT
+Fertilitas subword,1.0895,subtoken per kata

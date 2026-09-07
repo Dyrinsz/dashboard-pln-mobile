@@ -1,0 +1,70 @@
+{
+  "corpus": {
+    "jumlah_dokumen": 338793,
+    "total_token": 3067816,
+    "kosakata_unik": 51749,
+    "type_token_ratio": 0.01687,
+    "hapax_legomena": 26593,
+    "rata_token_per_dokumen": 9.06,
+    "median_token_per_dokumen": 7.0,
+    "oov_tipe_persen": 10.84,
+    "oov_token_persen": 0.71,
+    "cakupan_kamus_persen": 0.75,
+    "cakupan_dokumen_persen": 0.7,
+    "cakupan_token_persen": 0.2
+  },
+  "indo4b": {
+    "jumlah_dokumen_cuplikan": 65137,
+    "total_token": 7831189,
+    "kosakata_kamus": 3275957408,
+    "ambang_min_freq": 5,
+    "ambang_keyness": 15.13,
+    "sumber_kamus": "indo4b_counter.pkl (seluruh korpus, MIN_FREQ=5)"
+  },
+  "model": {
+    "pralatih": "indobenchmark/indobert-base-p1",
+    "perangkat_pelatihan": "cuda",
+    "label_sentimen": {
+      "NEGATIF": 0,
+      "NETRAL": 1,
+      "POSITIF": 2
+    },
+    "parameter": {
+      "Model Pralatih": "indobenchmark/indobert-base-p1",
+      "Batch Size Train": "16",
+      "Batch Size Eval": "16",
+      "Gradient Accumulation": "2",
+      "Gradient Accumulation Sentimen": "1",
+      "Learning Rate": "5e-06",
+      "Learning Rate Sentimen": "2e-05",
+      "Epoch": "10",
+      "Epoch Sentimen": "20",
+      "Validasi Internal Sentimen": "0.15",
+      "Optimizer": "AdamW",
+      "Weight Decay": "0.05",
+      "Warmup Ratio": "0.1",
+      "Dropout": "0.3",
+      "Early Stopping Patience": "3",
+      "Max Sequence Length": "128",
+      "Precision": "fp16 mixed",
+      "Metrik Pemilihan Model": "f1 macro",
+      "Pembagian Data": "80 : 10 : 10",
+      "Seed": "42"
+    },
+    "berkas": {
+      "model_ner_subclass": 473.7,
+      "model_ner_entity": 473.4,
+      "model_sentimen_terbaik": 475.6
+    }
+  },
+  "lingkungan": {
+    "python": "3.13.15",
+    "transformers": "4.55.4",
+    "tokenizers": "0.21.4",
+    "torch": "2.11.0+cu128",
+    "huggingface-hub": "0.36.2",
+    "scikit-learn": "1.6.1",
+    "seqeval": "1.2.2",
+    "Sastrawi": "1.0.1"
+  }
+}

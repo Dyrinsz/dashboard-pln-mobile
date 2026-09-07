@@ -1,0 +1,5 @@
+Korpus,Satuan,Jumlah diperiksa,Mengandung kelistrikan,Persentase (%)
+Domain-spesifik (ulasan PLN Mobile),dokumen,338793,238133,70.2886
+Indo4B (cuplikan),dokumen,65137,7765,11.921
+Domain-spesifik (ulasan PLN Mobile),token,3036874,441124,14.5256
+Indo4B,token,3275957408,12345337,0.3768

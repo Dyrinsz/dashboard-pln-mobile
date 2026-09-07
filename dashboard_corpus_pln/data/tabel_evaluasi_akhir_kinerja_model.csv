@@ -1,0 +1,23 @@
+Indikator,Nilai,Persentase/Keterangan
+NER tipe entitas - F1 micro,0.9933,99.33%
+NER tipe entitas - F1 macro,0.9695,96.95%
+NER tipe entitas - F1 weighted,0.9934,99.34%
+NER kode subclass - F1 micro,0.9935,99.35%
+NER kode subclass - F1 macro,0.9253,92.53%
+NER kode subclass - F1 weighted,0.9937,99.37%
+Sentimen - Accuracy,0.94,94.00%
+Sentimen - F1 macro,0.8366,83.66%
+Sentimen - F1 weighted,0.9349,93.49%
+Sentimen - F1 NEGATIF,0.9381,dukungan 110 baris
+Sentimen - F1 NETRAL,0.6087,dukungan 16 baris
+Sentimen - F1 POSITIF,0.963,dukungan 174 baris
+Sentimen Accuracy rata-rata lipatan,0.7864,simpangan baku 0.3365
+Sentimen F1 Macro rata-rata lipatan,0.5673,simpangan baku 0.2282
+Sentimen F1 Weighted rata-rata lipatan,0.7695,simpangan baku 0.3291
+Model vs pakar - F1 macro kelas utama,0.2605,26.05%
+Model vs pakar - F1 weighted kelas utama,0.2864,28.64%
+Kesesuaian model vs pakar - Kelas Utama,23.67,"persen, satuan ulasan"
+Kesesuaian model vs pakar - Kode Subclass,12.67,"persen, satuan ulasan"
+Cohen Kappa Kelas Utama,0.6129,kesepakatan antar pakar
+Cohen Kappa Subclass,0.2551,kesepakatan antar pakar
+Cohen Kappa Sentimen,0.9133,kesepakatan antar pakar

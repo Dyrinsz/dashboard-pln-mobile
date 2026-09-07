@@ -1,0 +1,49 @@
+Kode,Nama Subclass,Kelas Utama,Jumlah pada Gold,Diprediksi Aturan
+1A,Respon lambat terhadap laporan Gangguan,Service O2O,23,52
+1B,Respon lambat terhadap laporan Keluhan,Service O2O,29,2
+1C,PB/PD/PS/Migrasi belum ada realisasi,Service O2O,7,13
+1D,Complain terkait layanan pra/pascabayar,Service O2O,8,1
+1E,Gangguan selesai/batal tanpa ditindaklanjuti lapangan,Service O2O,16,1
+1F,Ketidaksesuaian layanan petugas Unit,Service O2O,5,0
+1H,Ketidaksesuaian layanan petugas PLN123,Service O2O,3,0
+1I,Keluhan selesai/batal tanpa ditindaklanjuti lapangan,Service O2O,8,0
+2A,Gangguan server,Feature Error,6,0
+2B,Status payment gagal tapi saldo sudah terpotong,Feature Error,7,27
+2C,Fungsi fitur gagal,Feature Error,7,10
+2D,Pengaduan tidak bisa di submit/tidak bisa digunakan,Feature Error,1,1
+2E,Fitur SPKLU,Feature Error,0,3
+2F,PB/PD,Feature Error,1,0
+2G,Gagal input IDPEL,Feature Error,1,3
+2H,Swacam tidak dapat digunakan,Feature Error,1,1
+2J,Kesalahan koordinat lokasi,Feature Error,1,0
+3A,Lain-lain,Umum,65,0
+3B,Tentang promo/stimulus,Umum,5,4
+3C,UU PDP,Umum,0,1
+3D,Marketplace,Umum,3,1
+3E,Reward,Umum,2,1
+3F,Keluhan Probis,Umum,5,0
+4A,Fitur Payment,Feature Design,10,0
+4B,Fitur PB/PD,Feature Design,9,0
+4C,Fitur notifikasi pemadaman,Feature Design,2,0
+4D,Fitur Pengaduan,Feature Design,20,0
+4E,Saran masukan User Interface (UI),Feature Design,13,1
+4F,Fitur history pemakaian,Feature Design,5,0
+4G,Fitur Live Chat,Feature Design,2,2
+4H,History pembelian token/pembayaran tagihan,Feature Design,4,1
+4I,Fitur Swacam,Feature Design,3,0
+4J,Fitur ADD ID Pel,Feature Design,0,1
+4K,Saran fitur baru,Feature Design,4,0
+4P,Fitur ICONNET,Feature Design,0,6
+4Q,Fitur SPKLU,Feature Design,3,0
+5A,Sulit login/tidak bisa login,Registration,3,3
+5B,Sulit mendaftar/tidak bisa mendaftar,Registration,1,0
+5C,Masalah OTP,Registration,3,2
+5D,Masalah verifikasi,Registration,1,1
+5E,Nomor HP sudah terdaftar dengan nama orang lain,Registration,1,2
+5F,Tidak bisa ubah data diri,Registration,3,0
+6A,Registration ICONNET,ICONNET,1,1
+6B,Service O2O ICONNET,ICONNET,5,0
+6C,Feature Payment ICONNET,ICONNET,1,0
+6E,Others (Umum) ICONNET,ICONNET,2,0
+7A,Service O2O ListriQu,ListriQu,0,1
+tidakterdeteksi,Tidak terdeteksi oleh aturan,-,0,158

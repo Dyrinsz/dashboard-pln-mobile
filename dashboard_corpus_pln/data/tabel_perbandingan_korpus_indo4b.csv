@@ -1,0 +1,9 @@
+Aspek,Korpus domain-spesifik (ulasan PLN Mobile),Korpus umum Indo4B
+Jumlah dokumen (Indo4B dari cuplikan korpus mentah),"338,793","65,137"
+Jumlah token (Indo4B dari kamus frekuensi),"3,069,130","3,275,957,408"
+Kosakata unik (Indo4B setelah ambang MIN_FREQ),"48,583","1,701,382"
+Rata-rata token per dokumen,9.06,120.23
+Rasio kekayaan kosakata (TTR),0.01600,0.00052
+Dokumen mengandung istilah domain (%),70.29,11.92
+Token istilah domain (%),14.5256,0.3768
+Sumber hitungan Indo4B,perhitungan langsung,"indo4b_counter.pkl (seluruh korpus, MIN_FREQ=5)"

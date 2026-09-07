@@ -1,0 +1,20 @@
+Folder ini boleh dibiarkan kosong.
+
+Dashboard sudah memakai ikon garis bawaan dari tema.py. Bila ingin
+memakai ikon asli dari flaticon.com/uicons, unduh ikonnya dalam bentuk
+SVG lalu simpan di folder ini memakai nama berikut, tanpa mengubah
+apa pun pada kodingan:
+
+  rumah.svg        halaman Ringkasan
+  sapu.svg         halaman Data & Praproses
+  buku.svg         halaman Corpus Domain
+  pengguna.svg     halaman Validasi Pakar
+  label.svg        halaman Model NER
+  senyum.svg       halaman Sentimen
+  robot.svg        halaman Prediksi Langsung
+  folder.svg       halaman Jelajah Berkas
+
+Ikon kartu metrik memakai nama: basis_data, teks, label, senyum,
+target, pengguna, persen, grafik, folder, robot, dokumen, kilat,
+bintang, muat_ulang, kaca, centang, silang, kotak, pengaturan,
+unduh, mata.

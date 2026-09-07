@@ -1,0 +1,4 @@
+Aspek Dinilai,Jumlah Data,Persentase Setuju,Cohen Kappa,Galat Baku,CI 95% Bawah,CI 95% Atas,Interpretasi
+Kelas Utama,300,71.0,0.6129,0.0359,0.539,0.6825,Substantial agreement
+Subclass,300,27.67,0.2551,0.0264,0.2041,0.3064,Fair agreement
+Sentimen,300,95.33,0.9133,0.0222,0.8672,0.9528,Almost perfect agreement

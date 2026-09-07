@@ -1,0 +1,3 @@
+Skema,Jenis Label,Precision,Recall,F1 Score
+entity,11,0.9904,0.9972,0.9938
+subclass,94,0.9898,0.9973,0.9935

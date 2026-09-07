@@ -1,0 +1,45 @@
+LANGKAH LANJUTAN SETELAH FOLDER INI TERBENTUK
+==============================================
+
+1. Buka https://github.com/new lalu buat penyimpanan kodingan baru.
+   Nama bebas, misalnya dashboard-pln-mobile. Boleh publik maupun
+   tertutup. Jangan centang tambahan apa pun, lalu tekan Create.
+
+2. Pada halaman penyimpanan yang baru, tekan tautan uploading an
+   existing file. Seret SELURUH ISI folder siap_unggah ke jendela
+   peramban, bukan foldernya. Tunggu sampai daftarnya lengkap lalu
+   tekan Commit changes.
+
+3. Buka https://share.streamlit.io lalu masuk memakai akun GitHub
+   yang sama. Tekan Create app, pilih Deploy a public app from
+   GitHub, lalu pilih penyimpanan kodingan tadi.
+
+4. Isi kolomnya: Branch main, Main file path app.py, lalu tentukan
+   alamat web yang diinginkan.
+
+5. Buka Advanced settings, pilih Python version 3.11, lalu tekan
+   Deploy dan tunggu tiga sampai delapan menit.
+
+6. Bila kartu angka masih kosong, buka menu tiga titik pada kanan
+   atas aplikasi, pilih Settings lalu Secrets, isikan satu baris
+   berikut, tekan Save, lalu Reboot app:
+
+   PLN_DASHBOARD_DATA = "dashboard_corpus_pln"
+
+7. Daftar pustaka disiapkan tanpa pustaka pemodelan, sehingga
+   penayangan menjadi jauh lebih cepat dan tidak pernah kehabisan
+   memori. Tujuh menu penyajian hasil tetap lengkap, hanya menu
+   Prediksi Langsung yang tidak aktif secara daring. Bila ingin
+   ikut aktif, jalankan ulang penyiap ini dengan pilihan
+   --dengan-prediksi.
+
+CARA TERCEPAT TANPA GIT DAN TANPA GITHUB
+========================================
+
+Buka https://huggingface.co/new-space, pilih Streamlit sebagai SDK,
+tekan Create Space, lalu buka tab Files and versions dan tekan Add
+file, Upload files. Seret seluruh isi folder siap_unggah ke situ lalu
+tekan Commit. Space menyala sendiri dan memberi alamat web tetap.
+Memorinya lebih lega, sehingga menu Prediksi Langsung lebih aman
+dihidupkan di sini.
+

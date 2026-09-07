@@ -1,0 +1,9 @@
+Tahap,Jumlah Data,Keterangan
+Data awal hasil penggabungan,388070,data_pln.csv
+Setelah Cleansing,387279,baris kosong dibuang
+Setelah Case Folding,387279,seluruh huruf dijadikan huruf kecil
+Setelah Filtering,385403,stopword dan huruf tunggal dibuang
+Setelah Normalization,385403,kata slang diformalkan
+Setelah Spelling Corrector,385403,Peter Norvig dengan vocabulary Indo4B dan istilah domain kelistrikan
+Setelah Tokenization,338793,ulasan dengan token minimal 3
+"Analisis Corpus Indo4B, domain-spesifik vs umum",238133,"ulasan kelistrikan 70.29 persen dari 338,793 ulasan korpus domain-spesifik, pembanding korpus umum Indo4B dari indo4b_counter.pkl (seluruh korpus, MIN_FREQ=5)"

@@ -1,0 +1,2762 @@
+[
+  {
+    "nama": "classification_report_ner_entitas.csv",
+    "kategori": "model",
+    "judul": "Classification Report Ner_Entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 8,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "classification_report_ner_entity.csv",
+    "kategori": "model",
+    "judul": "Classification Report Ner_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 14,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "classification_report_ner_subclass.csv",
+    "kategori": "model",
+    "judul": "Classification Report Ner_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 2.6,
+    "baris": 97,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_BI_entity.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Bi_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 10,
+    "kolom": [
+      "Acuan",
+      "B-AKTOR",
+      "B-ASPEK",
+      "B-IDENTIFIER",
+      "B-MASALAH",
+      "B-SARAN",
+      "I-AKTOR",
+      "I-ASPEK",
+      "I-IDENTIFIER",
+      "I-MASALAH",
+      "I-SARAN"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_BI_subclass.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Bi_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 10.0,
+    "baris": 69,
+    "kolom": [
+      "Acuan",
+      "B-1A",
+      "B-1B",
+      "B-1C",
+      "B-1D",
+      "B-1E",
+      "B-1F",
+      "B-1H",
+      "B-2A",
+      "B-2B",
+      "B-2C",
+      "B-2D",
+      "B-2E",
+      "B-2G",
+      "B-2H",
+      "B-2I",
+      "B-2L",
+      "B-3B",
+      "B-3C",
+      "B-3D",
+      "B-3E",
+      "B-3G",
+      "B-4A",
+      "B-4B",
+      "B-4C",
+      "B-4E",
+      "B-4F",
+      "B-4G",
+      "B-4H",
+      "B-4K",
+      "B-4P",
+      "B-5A",
+      "B-5B",
+      "B-5C",
+      "B-5D",
+      "B-5E",
+      "B-5F",
+      "B-7A",
+      "I-1A",
+      "I-1B",
+      "I-1C",
+      "I-1D",
+      "I-1E",
+      "I-1F",
+      "I-1H",
+      "I-2A",
+      "I-2B",
+      "I-2C",
+      "I-2D",
+      "I-2G",
+      "I-2H",
+      "I-2I",
+      "I-3D",
+      "I-4A",
+      "I-4B",
+      "I-4C",
+      "I-4E",
+      "I-4F",
+      "I-4G",
+      "I-4H",
+      "I-4K",
+      "I-4P",
+      "I-5A",
+      "I-5B",
+      "I-5C",
+      "I-5D",
+      "I-5E",
+      "I-5F",
+      "I-6A",
+      "I-7A"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_O_entity.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix O_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Acuan",
+      "Entitas (B,I)",
+      "O"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_O_subclass.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix O_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Acuan",
+      "Entitas (B,I)",
+      "O"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_ner_entity.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Ner_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.6,
+    "baris": 11,
+    "kolom": [
+      "Unnamed: 0",
+      "Prediksi B-AKTOR",
+      "Prediksi B-ASPEK",
+      "Prediksi B-IDENTIFIER",
+      "Prediksi B-MASALAH",
+      "Prediksi B-SARAN",
+      "Prediksi I-AKTOR",
+      "Prediksi I-ASPEK",
+      "Prediksi I-IDENTIFIER",
+      "Prediksi I-MASALAH",
+      "Prediksi I-SARAN",
+      "Prediksi O"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_ner_subclass.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Ner_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 19.7,
+    "baris": 94,
+    "kolom": [
+      "Unnamed: 0",
+      "Prediksi B-1A",
+      "Prediksi B-1B",
+      "Prediksi B-1C",
+      "Prediksi B-1D",
+      "Prediksi B-1E",
+      "Prediksi B-1F",
+      "Prediksi B-1H",
+      "Prediksi B-2A",
+      "Prediksi B-2B",
+      "Prediksi B-2C",
+      "Prediksi B-2D",
+      "Prediksi B-2E",
+      "Prediksi B-2G",
+      "Prediksi B-2H",
+      "Prediksi B-2I",
+      "Prediksi B-2J",
+      "Prediksi B-2K",
+      "Prediksi B-2L",
+      "Prediksi B-2M",
+      "Prediksi B-3B",
+      "Prediksi B-3C",
+      "Prediksi B-3D",
+      "Prediksi B-3E",
+      "Prediksi B-3F",
+      "Prediksi B-3G",
+      "Prediksi B-4A",
+      "Prediksi B-4B",
+      "Prediksi B-4C",
+      "Prediksi B-4E",
+      "Prediksi B-4F",
+      "Prediksi B-4G",
+      "Prediksi B-4H",
+      "Prediksi B-4J",
+      "Prediksi B-4K",
+      "Prediksi B-4P",
+      "Prediksi B-5A",
+      "Prediksi B-5B",
+      "Prediksi B-5C",
+      "Prediksi B-5D",
+      "Prediksi B-5E",
+      "Prediksi B-5F",
+      "Prediksi B-6A",
+      "Prediksi B-6B",
+      "Prediksi B-6C",
+      "Prediksi B-6D",
+      "Prediksi B-6F",
+      "Prediksi B-7A",
+      "Prediksi I-1A",
+      "Prediksi I-1B",
+      "Prediksi I-1C",
+      "Prediksi I-1D",
+      "Prediksi I-1E",
+      "Prediksi I-1F",
+      "Prediksi I-2A",
+      "Prediksi I-2B",
+      "Prediksi I-2C",
+      "Prediksi I-2D",
+      "Prediksi I-2E",
+      "Prediksi I-2G",
+      "Prediksi I-2H",
+      "Prediksi I-2I",
+      "Prediksi I-2J",
+      "Prediksi I-2K",
+      "Prediksi I-2L",
+      "Prediksi I-2M",
+      "Prediksi I-3B",
+      "Prediksi I-3C",
+      "Prediksi I-3D",
+      "Prediksi I-3E",
+      "Prediksi I-3F",
+      "Prediksi I-3G",
+      "Prediksi I-4A",
+      "Prediksi I-4B",
+      "Prediksi I-4C",
+      "Prediksi I-4E",
+      "Prediksi I-4F",
+      "Prediksi I-4G",
+      "Prediksi I-4H",
+      "Prediksi I-4J",
+      "Prediksi I-4K",
+      "Prediksi I-4P",
+      "Prediksi I-5A",
+      "Prediksi I-5B",
+      "Prediksi I-5C",
+      "Prediksi I-5D",
+      "Prediksi I-5E",
+      "Prediksi I-5F",
+      "Prediksi I-6A",
+      "Prediksi I-6B",
+      "Prediksi I-6C",
+      "Prediksi I-6D",
+      "Prediksi I-6F",
+      "Prediksi I-7A",
+      "Prediksi O"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_prefiks_bio_entity.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Prefiks_Bio_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.0,
+    "baris": 3,
+    "kolom": [
+      "Acuan",
+      "B",
+      "I",
+      "O"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_prefiks_bio_subclass.csv",
+    "kategori": "model",
+    "judul": "Confusion Matrix Prefiks_Bio_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.0,
+    "baris": 3,
+    "kolom": [
+      "Acuan",
+      "B",
+      "I",
+      "O"
+    ]
+  },
+  {
+    "nama": "daftar_ulasan_model_belum_sesuai.csv",
+    "kategori": "model",
+    "judul": "Daftar ulasan model belum sesuai",
+    "jenis": "tabel",
+    "ukuran_kb": 34.9,
+    "baris": 229,
+    "kolom": [
+      "review_id",
+      "Ulasan",
+      "gold_kelas_asli",
+      "kelas_model",
+      "subclass_model"
+    ]
+  },
+  {
+    "nama": "keterangan_kode_ner_entity.csv",
+    "kategori": "model",
+    "judul": "Keterangan kode ner entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 11,
+    "kolom": [
+      "Kode",
+      "Arti Kode",
+      "Posisi BIO"
+    ]
+  },
+  {
+    "nama": "keterangan_kode_ner_subclass.csv",
+    "kategori": "model",
+    "judul": "Keterangan kode ner subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 4.7,
+    "baris": 94,
+    "kolom": [
+      "Kode",
+      "Arti Kode",
+      "Posisi BIO"
+    ]
+  },
+  {
+    "nama": "laporan_model_vs_pakar_ulasan.csv",
+    "kategori": "model",
+    "judul": "Laporan Model terhadap Anotasi Pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 11,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "laporan_seqeval_entity.csv",
+    "kategori": "model",
+    "judul": "Laporan Seqeval NER Skema Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 8,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "laporan_seqeval_subclass.csv",
+    "kategori": "model",
+    "judul": "Laporan Seqeval NER Skema Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 1.3,
+    "baris": 47,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_ner_entitas.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Ner_Entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 1.0,
+    "baris": 10,
+    "kolom": [
+      "epoch",
+      "eval_loss",
+      "eval_precision",
+      "eval_recall",
+      "eval_f1",
+      "eval_accuracy"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_ner_entity.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Ner_Entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 10,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Precision",
+      "Recall",
+      "F1"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_ner_subclass.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Ner_Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 10,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Precision",
+      "Recall",
+      "F1"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen_lipatan1.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Sentimen_Lipatan1",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 9,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen_lipatan2.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Sentimen_Lipatan2",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 9,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen_lipatan3.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Sentimen_Lipatan3",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 6,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen_lipatan4.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Sentimen_Lipatan4",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 6,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen_lipatan5.csv",
+    "kategori": "model",
+    "judul": "Riwayat Pelatihan Sentimen_Lipatan5",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 6,
+    "kolom": [
+      "Epoch",
+      "Training Loss",
+      "Validation Loss",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted"
+    ]
+  },
+  {
+    "nama": "tabel_aturan_vs_model_ulasan.csv",
+    "kategori": "model",
+    "judul": "Tabel aturan vs model ulasan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Pendekatan",
+      "Kelas Utama Tepat (%)",
+      "Kode Subclass Tepat (%)"
+    ]
+  },
+  {
+    "nama": "tabel_evaluasi_akhir_kinerja_model.csv",
+    "kategori": "model",
+    "judul": "Tabel evaluasi akhir kinerja model",
+    "jenis": "tabel",
+    "ukuran_kb": 1.1,
+    "baris": 22,
+    "kolom": [
+      "Indikator",
+      "Nilai",
+      "Persentase/Keterangan"
+    ]
+  },
+  {
+    "nama": "tabel_kesesuaian_model_vs_pakar_ulasan.csv",
+    "kategori": "model",
+    "judul": "Tabel kesesuaian model vs pakar ulasan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Tingkat",
+      "Kesesuaian Keseluruhan (%)",
+      "Kesesuaian pada Ulasan Terdeteksi (%)"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_BI_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi bi entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 13,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_BI_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi bi subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 1.7,
+    "baris": 72,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_O_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi o entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_O_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi o subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_prefiks_bio_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi prefiks bio entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_klasifikasi_prefiks_bio_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel klasifikasi prefiks bio subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Label",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "tabel_parameter_fine_tuning.csv",
+    "kategori": "model",
+    "judul": "Tabel parameter fine tuning",
+    "jenis": "tabel",
+    "ukuran_kb": 0.7,
+    "baris": 15,
+    "kolom": [
+      "Parameter",
+      "Nilai",
+      "Keterangan"
+    ]
+  },
+  {
+    "nama": "tabel_pembagian_data_ner.csv",
+    "kategori": "model",
+    "judul": "Pembagian Data Latih, Validasi, dan Uji",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Himpunan",
+      "Jumlah Ulasan",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_pencegahan_kebocoran_ner.csv",
+    "kategori": "model",
+    "judul": "Pemeriksaan Pencegahan Kebocoran Data",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Keterangan",
+      "Jumlah"
+    ]
+  },
+  {
+    "nama": "tabel_perbandingan_bio_kedua_skema.csv",
+    "kategori": "model",
+    "judul": "Tabel perbandingan bio kedua skema",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Skema",
+      "Token Uji",
+      "Token Entitas",
+      "Token O",
+      "Entitas Terlewat",
+      "O Jadi Entitas",
+      "Tipe Keliru"
+    ]
+  },
+  {
+    "nama": "tabel_perbandingan_skema_ner.csv",
+    "kategori": "model",
+    "judul": "Perbandingan Kinerja Dua Skema Pelabelan NER",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Skema",
+      "Jenis Label",
+      "Precision",
+      "Recall",
+      "F1 Score"
+    ]
+  },
+  {
+    "nama": "tabel_ringkasan_bio_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel ringkasan bio entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Keterangan",
+      "Jumlah",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "tabel_ringkasan_bio_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel ringkasan bio subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Keterangan",
+      "Jumlah",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "tabel_ringkasan_hasil.csv",
+    "kategori": "model",
+    "judul": "Tabel ringkasan hasil",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 15,
+    "kolom": [
+      "Keterangan",
+      "Nilai"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_BI_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel sebaran bi entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 10,
+    "kolom": [
+      "Label",
+      "Prefiks",
+      "Jumlah Acuan",
+      "Jumlah Ramalan",
+      "Selisih"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_BI_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel sebaran bi subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 1.1,
+    "baris": 72,
+    "kolom": [
+      "Label",
+      "Prefiks",
+      "Jumlah Acuan",
+      "Jumlah Ramalan",
+      "Selisih"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_O_entity.csv",
+    "kategori": "model",
+    "judul": "Tabel sebaran o entity",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 1,
+    "kolom": [
+      "Label",
+      "Prefiks",
+      "Jumlah Acuan",
+      "Jumlah Ramalan",
+      "Selisih"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_O_subclass.csv",
+    "kategori": "model",
+    "judul": "Tabel sebaran o subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 1,
+    "kolom": [
+      "Label",
+      "Prefiks",
+      "Jumlah Acuan",
+      "Jumlah Ramalan",
+      "Selisih"
+    ]
+  },
+  {
+    "nama": "token_uji_entity.csv",
+    "kategori": "model",
+    "judul": "Token uji entity",
+    "jenis": "tabel",
+    "ukuran_kb": 291.7,
+    "baris": 45433,
+    "kolom": [
+      "acuan",
+      "ramalan"
+    ]
+  },
+  {
+    "nama": "token_uji_subclass.csv",
+    "kategori": "model",
+    "judul": "Token uji subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 233.7,
+    "baris": 45433,
+    "kolom": [
+      "acuan",
+      "ramalan"
+    ]
+  },
+  {
+    "nama": "korpus_ner_bio_dokumen.csv",
+    "kategori": "ner",
+    "judul": "Korpus NER BIO Tingkat Dokumen",
+    "jenis": "tabel",
+    "ukuran_kb": 35935.1,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "sumber",
+      "model_text",
+      "jumlah_token",
+      "jumlah_entitas",
+      "daftar_subclass",
+      "daftar_kelas"
+    ]
+  },
+  {
+    "nama": "korpus_ner_bio_token_level.csv",
+    "kategori": "ner",
+    "judul": "Korpus NER BIO Tingkat Token",
+    "jenis": "tabel",
+    "ukuran_kb": 87508.5,
+    "baris": 3067816,
+    "kolom": [
+      "review_id",
+      "posisi",
+      "token",
+      "bio_entity",
+      "bio_subclass"
+    ]
+  },
+  {
+    "nama": "tabel_4_5_distribusi_bio_subclass.csv",
+    "kategori": "ner",
+    "judul": "Tabel 4 5 distribusi bio subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 4.9,
+    "baris": 94,
+    "kolom": [
+      "Label",
+      "Frekuensi",
+      "Persentase",
+      "Nama Subclass",
+      "Kelas Utama"
+    ]
+  },
+  {
+    "nama": "tabel_4_6_distribusi_bio_entitas.csv",
+    "kategori": "ner",
+    "judul": "Tabel 4 6 distribusi bio entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 11,
+    "kolom": [
+      "Label",
+      "Frekuensi",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_distribusi_bio_entitas.csv",
+    "kategori": "ner",
+    "judul": "Distribusi Label BIO Skema Tipe Entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 11,
+    "kolom": [
+      "Label",
+      "Frekuensi",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_distribusi_bio_subclass.csv",
+    "kategori": "ner",
+    "judul": "Distribusi Label BIO Skema Kode Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 4.9,
+    "baris": 94,
+    "kolom": [
+      "Label",
+      "Frekuensi",
+      "Persentase",
+      "Nama Subclass",
+      "Kelas Utama"
+    ]
+  },
+  {
+    "nama": "00_tahap0b_kamus_slang.csv",
+    "kategori": "praproses",
+    "judul": "00 tahap0b kamus slang",
+    "jenis": "tabel",
+    "ukuran_kb": 1.6,
+    "baris": 128,
+    "kolom": [
+      "slang",
+      "bentuk_formal"
+    ]
+  },
+  {
+    "nama": "01_tahap0_data_dimuat.csv",
+    "kategori": "praproses",
+    "judul": "01 tahap0 data dimuat",
+    "jenis": "tabel",
+    "ukuran_kb": 39176.4,
+    "baris": 388070,
+    "kolom": [
+      "review_id",
+      "tanggal",
+      "text_raw",
+      "tahun",
+      "panjang_kata"
+    ]
+  },
+  {
+    "nama": "02_tahap1_cleansing.csv",
+    "kategori": "praproses",
+    "judul": "02 tahap1 cleansing",
+    "jenis": "tabel",
+    "ukuran_kb": 57377.2,
+    "baris": 387279,
+    "kolom": [
+      "review_id",
+      "text_raw",
+      "text_cleaned"
+    ]
+  },
+  {
+    "nama": "03_tahap2_case_folding.csv",
+    "kategori": "praproses",
+    "judul": "03 tahap2 case folding",
+    "jenis": "tabel",
+    "ukuran_kb": 56049.5,
+    "baris": 387279,
+    "kolom": [
+      "review_id",
+      "text_cleaned",
+      "text_casefolded"
+    ]
+  },
+  {
+    "nama": "04_tahap3_filtering.csv",
+    "kategori": "praproses",
+    "judul": "04 tahap3 filtering",
+    "jenis": "tabel",
+    "ukuran_kb": 52490.2,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_casefolded",
+      "text_filtered"
+    ]
+  },
+  {
+    "nama": "05_tahap4_normalization.csv",
+    "kategori": "praproses",
+    "judul": "05 tahap4 normalization",
+    "jenis": "tabel",
+    "ukuran_kb": 49308.6,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_filtered",
+      "text_normalized"
+    ]
+  },
+  {
+    "nama": "06_spelling_corrected.csv",
+    "kategori": "praproses",
+    "judul": "06 spelling corrected",
+    "jenis": "tabel",
+    "ukuran_kb": 161482.3,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "tanggal",
+      "text_raw",
+      "sumber",
+      "tahun",
+      "panjang_kata",
+      "text_cleaned",
+      "text_casefolded",
+      "text_filtered",
+      "text_normalized",
+      "text_spelling_corrected"
+    ]
+  },
+  {
+    "nama": "06_tahap5_spelling_corrector.csv",
+    "kategori": "praproses",
+    "judul": "06 tahap5 spelling corrector",
+    "jenis": "tabel",
+    "ukuran_kb": 49642.4,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_normalized",
+      "text_spelling_corrected"
+    ]
+  },
+  {
+    "nama": "07_tahap6_tokenization.csv",
+    "kategori": "praproses",
+    "judul": "07 tahap6 tokenization",
+    "jenis": "tabel",
+    "ukuran_kb": 48679.0,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "text_spelling_corrected",
+      "model_text",
+      "jumlah_token"
+    ]
+  },
+  {
+    "nama": "08_tahap7_seluruh_kolom.csv",
+    "kategori": "praproses",
+    "judul": "08 tahap7 seluruh kolom",
+    "jenis": "tabel",
+    "ukuran_kb": 209705.0,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "tanggal",
+      "text_raw",
+      "sumber",
+      "tahun",
+      "panjang_kata",
+      "text_cleaned",
+      "text_casefolded",
+      "text_filtered",
+      "text_normalized",
+      "text_spelling_corrected",
+      "tokens",
+      "jumlah_token",
+      "model_text"
+    ]
+  },
+  {
+    "nama": "daftar_koreksi_token.csv",
+    "kategori": "praproses",
+    "judul": "Daftar koreksi token",
+    "jenis": "tabel",
+    "ukuran_kb": 190.8,
+    "baris": 9960,
+    "kolom": [
+      "token_awal",
+      "token_hasil",
+      "frekuensi"
+    ]
+  },
+  {
+    "nama": "daftar_oov_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Daftar Token di Luar Kosakata Indo4B",
+    "jenis": "tabel",
+    "ukuran_kb": 60.8,
+    "baris": 5609,
+    "kolom": [
+      "Token OOV",
+      "Frekuensi"
+    ]
+  },
+  {
+    "nama": "data_preparation_final.csv",
+    "kategori": "praproses",
+    "judul": "Corpus Hasil Praproses",
+    "jenis": "tabel",
+    "ukuran_kb": 172160.1,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "sumber",
+      "text_raw",
+      "text_cleaned",
+      "text_casefolded",
+      "text_filtered",
+      "text_normalized",
+      "text_spelling_corrected",
+      "model_text",
+      "jumlah_token"
+    ]
+  },
+  {
+    "nama": "distribusi_domain_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Distribusi Istilah Domain Kelistrikan",
+    "jenis": "tabel",
+    "ukuran_kb": 12.5,
+    "baris": 306,
+    "kolom": [
+      "Istilah",
+      "Frekuensi",
+      "Jumlah_Dokumen",
+      "Persentase_Dokumen"
+    ]
+  },
+  {
+    "nama": "kamus_domain_kelistrikan.csv",
+    "kategori": "praproses",
+    "judul": "Kamus domain kelistrikan",
+    "jenis": "tabel",
+    "ukuran_kb": 3.5,
+    "baris": 291,
+    "kolom": [
+      "domain_term",
+      "protected"
+    ]
+  },
+  {
+    "nama": "log_koreksi_ejaan.csv",
+    "kategori": "praproses",
+    "judul": "Log koreksi ejaan",
+    "jenis": "tabel",
+    "ukuran_kb": 251.5,
+    "baris": 3264,
+    "kolom": [
+      "row_id",
+      "token_position",
+      "token_original",
+      "token_output",
+      "status",
+      "kandidat",
+      "is_domain_term"
+    ]
+  },
+  {
+    "nama": "log_spelling_correction.csv",
+    "kategori": "praproses",
+    "judul": "Log spelling correction",
+    "jenis": "tabel",
+    "ukuran_kb": 120783.3,
+    "baris": 3142994,
+    "kolom": [
+      "row_id",
+      "posisi",
+      "token_awal",
+      "token_hasil",
+      "status"
+    ]
+  },
+  {
+    "nama": "ringkasan_korpus_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Ringkasan Statistik Korpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.6,
+    "baris": 17,
+    "kolom": [
+      "Indikator",
+      "Nilai"
+    ]
+  },
+  {
+    "nama": "riwayat_tahapan.csv",
+    "kategori": "praproses",
+    "judul": "Riwayat Jumlah Data per Tahapan",
+    "jenis": "tabel",
+    "baris": 8,
+    "kolom": [
+      "Tahap",
+      "Jumlah Data",
+      "Keterangan"
+    ],
+    "ukuran_kb": 0.7
+  },
+  {
+    "nama": "selected_vocabulary_kelistrikan.csv",
+    "kategori": "praproses",
+    "judul": "Selected vocabulary kelistrikan",
+    "jenis": "tabel",
+    "ukuran_kb": 39.3,
+    "baris": 1976,
+    "kolom": [
+      "term",
+      "count_original",
+      "selection_reason"
+    ]
+  },
+  {
+    "nama": "tabel_4_3_rekapitulasi_praproses.csv",
+    "kategori": "praproses",
+    "judul": "Tabel 4 3 rekapitulasi praproses",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 7,
+    "kolom": [
+      "No",
+      "Tahap",
+      "Jumlah Data",
+      "Keterangan",
+      "Selisih",
+      "Sisa (%)"
+    ]
+  },
+  {
+    "nama": "tabel_4_4_contoh_transformasi.csv",
+    "kategori": "praproses",
+    "judul": "Tabel 4 4 contoh transformasi",
+    "jenis": "tabel",
+    "ukuran_kb": 3.0,
+    "baris": 35,
+    "kolom": [
+      "Ulasan",
+      "Tahap",
+      "Hasil"
+    ]
+  },
+  {
+    "nama": "tabel_analisis_per_file_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Tabel analisis per file indo4b",
+    "jenis": "tabel",
+    "ukuran_kb": 2.1,
+    "baris": 12,
+    "kolom": [
+      "Subkorpus",
+      "File",
+      "Kata unik",
+      "Total kata",
+      "Frekuensi kelistrikan",
+      "Persentase kelistrikan (%)",
+      "10 kata teratas"
+    ]
+  },
+  {
+    "nama": "tabel_cakupan_kelistrikan_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Cakupan Istilah Kelistrikan pada Kedua Corpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 4,
+    "kolom": [
+      "Korpus",
+      "Satuan",
+      "Jumlah diperiksa",
+      "Mengandung kelistrikan",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "tabel_cakupan_kelistrikan_per_subkorpus_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Cakupan Istilah Kelistrikan per Subkorpus Indo4B",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 12,
+    "kolom": [
+      "Subkorpus",
+      "Status",
+      "Jumlah berkas",
+      "Dokumen dibaca",
+      "Dokumen kelistrikan",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "tabel_contoh_dataset_per_sumber.csv",
+    "kategori": "praproses",
+    "judul": "Tabel contoh dataset per sumber",
+    "jenis": "tabel",
+    "ukuran_kb": 3.3,
+    "baris": 20,
+    "kolom": [
+      "Tanggal",
+      "Ulasan",
+      "Sumber"
+    ]
+  },
+  {
+    "nama": "tabel_contoh_transformasi.csv",
+    "kategori": "praproses",
+    "judul": "Contoh Transformasi Teks per Tahap",
+    "jenis": "tabel",
+    "ukuran_kb": 3.0,
+    "baris": 35,
+    "kolom": [
+      "Ulasan",
+      "Tahap",
+      "Hasil"
+    ]
+  },
+  {
+    "nama": "tabel_istilah_khas_domain_vs_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Istilah Kelistrikan Paling Khas (Uji Log Likelihood)",
+    "jenis": "tabel",
+    "ukuran_kb": 3.2,
+    "baris": 68,
+    "kolom": [
+      "Istilah kelistrikan",
+      "Frekuensi corpus domain",
+      "Frekuensi Indo4B",
+      "Per sejuta corpus domain",
+      "Per sejuta Indo4B",
+      "Rasio kepekatan",
+      "Log likelihood",
+      "Signifikan"
+    ]
+  },
+  {
+    "nama": "tabel_jumlah_data_hasil_scraping_per_tahun.csv",
+    "kategori": "praproses",
+    "judul": "Tabel jumlah data hasil scraping per tahun",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 7,
+    "kolom": [
+      "Tahun",
+      "Jumlah_Data",
+      "Pertumbuhan_Tahunan_%"
+    ]
+  },
+  {
+    "nama": "tabel_jumlah_data_per_sumber.csv",
+    "kategori": "praproses",
+    "judul": "Tabel jumlah data per sumber",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Sumber Data",
+      "Jumlah Data",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "tabel_keyness_istilah_domain_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Keyness Istilah Domain terhadap Indo4B",
+    "jenis": "tabel",
+    "ukuran_kb": 37.3,
+    "baris": 600,
+    "kolom": [
+      "Istilah",
+      "Frekuensi korpus domain-spesifik",
+      "Frekuensi Indo4B",
+      "Per sejuta korpus domain-spesifik",
+      "Per sejuta Indo4B",
+      "Log likelihood",
+      "Lebih khas pada",
+      "Signifikan",
+      "Istilah kelistrikan"
+    ]
+  },
+  {
+    "nama": "tabel_koreksi_ejaan_teratas.csv",
+    "kategori": "praproses",
+    "judul": "Tabel koreksi ejaan teratas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 20,
+    "kolom": [
+      "Kata Salah",
+      "Hasil Koreksi",
+      "Frekuensi"
+    ]
+  },
+  {
+    "nama": "tabel_perbandingan_corpus_domain_vs_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Tabel Perbandingan Corpus Domain-Spesifik dengan Corpus Indo4B",
+    "jenis": "tabel",
+    "ukuran_kb": 1.7,
+    "baris": 12,
+    "kolom": [
+      "No",
+      "Aspek Perbandingan",
+      "Corpus Domain-Spesifik (Ulasan PLN Mobile)",
+      "Corpus Umum Indo4B",
+      "Rasio Domain : Indo4B",
+      "Keterangan"
+    ]
+  },
+  {
+    "nama": "tabel_perbandingan_corpus_ringkas.csv",
+    "kategori": "praproses",
+    "judul": "Ringkasan Angka Utama Perbandingan Corpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 6,
+    "kolom": [
+      "Indikator",
+      "Corpus Domain-Spesifik (Ulasan PLN Mobile)",
+      "Corpus Umum Indo4B"
+    ]
+  },
+  {
+    "nama": "tabel_perbandingan_korpus_indo4b.csv",
+    "kategori": "praproses",
+    "judul": "Perbandingan Statistik Korpus terhadap Indo4B",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 8,
+    "kolom": [
+      "Aspek",
+      "Korpus domain-spesifik (ulasan PLN Mobile)",
+      "Korpus umum Indo4B"
+    ]
+  },
+  {
+    "nama": "tabel_rekapitulasi_praproses.csv",
+    "kategori": "praproses",
+    "judul": "Rekapitulasi Tahapan Praproses",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 7,
+    "kolom": [
+      "No",
+      "Tahap",
+      "Jumlah Data",
+      "Keterangan",
+      "Selisih",
+      "Sisa (%)"
+    ]
+  },
+  {
+    "nama": "tabel_status_koreksi_ejaan.csv",
+    "kategori": "praproses",
+    "judul": "Tabel status koreksi ejaan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 4,
+    "kolom": [
+      "Status",
+      "Jumlah Token",
+      "Persentase (%)"
+    ]
+  },
+  {
+    "nama": "vocabulary_frekuensi_pln.csv",
+    "kategori": "praproses",
+    "judul": "Vocabulary frekuensi pln",
+    "jenis": "tabel",
+    "ukuran_kb": 246.4,
+    "baris": 25046,
+    "kolom": [
+      "term",
+      "count"
+    ]
+  },
+  {
+    "nama": "classification_report_gabungan.csv",
+    "kategori": "sentimen",
+    "judul": "Classification Report Gabungan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "classification_report_sentimen.csv",
+    "kategori": "sentimen",
+    "judul": "Classification Report Sentimen",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "classification_report_sentimen_akhir.csv",
+    "kategori": "sentimen",
+    "judul": "Classification Report Sentimen_Akhir",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "classification_report_teacher.csv",
+    "kategori": "sentimen",
+    "judul": "Classification Report Teacher",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_aturan_vs_gold_ner_ulasan.csv",
+    "kategori": "sentimen",
+    "judul": "Confusion Matrix Aturan_Vs_Gold_Ner_Ulasan",
+    "jenis": "tabel",
+    "ukuran_kb": 8.0,
+    "baris": 48,
+    "kolom": [
+      "Unnamed: 0",
+      "Prediksi 1A (Respon lambat terhadap laporan Gangguan)",
+      "Prediksi 1B (Respon lambat terhadap laporan Keluhan)",
+      "Prediksi 1C (PB/PD/PS/Migrasi belum ada realisasi)",
+      "Prediksi 1D (Complain terkait layanan pra/pascabayar)",
+      "Prediksi 1E (Gangguan selesai/batal tanpa ditindaklanjuti lapangan)",
+      "Prediksi 1F (Ketidaksesuaian layanan petugas Unit)",
+      "Prediksi 1H (Ketidaksesuaian layanan petugas PLN123)",
+      "Prediksi 1I (Keluhan selesai/batal tanpa ditindaklanjuti lapangan)",
+      "Prediksi 2A (Gangguan server)",
+      "Prediksi 2B (Status payment gagal tapi saldo sudah terpotong)",
+      "Prediksi 2C (Fungsi fitur gagal)",
+      "Prediksi 2D (Pengaduan tidak bisa di submit/tidak bisa digunakan)",
+      "Prediksi 2E (Fitur SPKLU)",
+      "Prediksi 2F (PB/PD)",
+      "Prediksi 2G (Gagal input IDPEL)",
+      "Prediksi 2H (Swacam tidak dapat digunakan)",
+      "Prediksi 2J (Kesalahan koordinat lokasi)",
+      "Prediksi 3A (Lain-lain)",
+      "Prediksi 3B (Tentang promo/stimulus)",
+      "Prediksi 3C (UU PDP)",
+      "Prediksi 3D (Marketplace)",
+      "Prediksi 3E (Reward)",
+      "Prediksi 3F (Keluhan Probis)",
+      "Prediksi 4A (Fitur Payment)",
+      "Prediksi 4B (Fitur PB/PD)",
+      "Prediksi 4C (Fitur notifikasi pemadaman)",
+      "Prediksi 4D (Fitur Pengaduan)",
+      "Prediksi 4E (Saran masukan User Interface (UI))",
+      "Prediksi 4F (Fitur history pemakaian)",
+      "Prediksi 4G (Fitur Live Chat)",
+      "Prediksi 4H (History pembelian token/pembayaran tagihan)",
+      "Prediksi 4I (Fitur Swacam)",
+      "Prediksi 4J (Fitur ADD ID Pel)",
+      "Prediksi 4K (Saran fitur baru)",
+      "Prediksi 4P (Fitur ICONNET)",
+      "Prediksi 4Q (Fitur SPKLU)",
+      "Prediksi 5A (Sulit login/tidak bisa login)",
+      "Prediksi 5B (Sulit mendaftar/tidak bisa mendaftar)",
+      "Prediksi 5C (Masalah OTP)",
+      "Prediksi 5D (Masalah verifikasi)",
+      "Prediksi 5E (Nomor HP sudah terdaftar dengan nama orang lain)",
+      "Prediksi 5F (Tidak bisa ubah data diri)",
+      "Prediksi 6A (Registration ICONNET)",
+      "Prediksi 6B (Service O2O ICONNET)",
+      "Prediksi 6C (Feature Payment ICONNET)",
+      "Prediksi 6E (Others (Umum) ICONNET)",
+      "Prediksi 7A (Service O2O ListriQu)",
+      "Prediksi Tidak terdeteksi"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_gabungan.csv",
+    "kategori": "sentimen",
+    "judul": "Confusion Matrix Gabungan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Unnamed: 0",
+      "Prediksi NEGATIF",
+      "Prediksi NETRAL",
+      "Prediksi POSITIF"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_sentimen.csv",
+    "kategori": "sentimen",
+    "judul": "Confusion Matrix Sentimen",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Unnamed: 0",
+      "prediksi NEGATIF",
+      "prediksi NETRAL",
+      "prediksi POSITIF"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_sentimen_akhir.csv",
+    "kategori": "sentimen",
+    "judul": "Confusion Matrix Sentimen Gabungan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Unnamed: 0",
+      "ramal NEGATIF",
+      "ramal NETRAL",
+      "ramal POSITIF"
+    ]
+  },
+  {
+    "nama": "confusion_matrix_teacher.csv",
+    "kategori": "sentimen",
+    "judul": "Confusion Matrix Teacher",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Unnamed: 0",
+      "NEGATIF",
+      "NETRAL",
+      "POSITIF"
+    ]
+  },
+  {
+    "nama": "daftar_ketidaksesuaian_aturan_vs_pakar.csv",
+    "kategori": "sentimen",
+    "judul": "Daftar ketidaksesuaian aturan vs pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 69.5,
+    "baris": 262,
+    "kolom": [
+      "review_id",
+      "Ulasan",
+      "model_text",
+      "gold_kelas_asli",
+      "gold_subclass",
+      "kelas_terdeteksi_asli",
+      "subclass_terdeteksi"
+    ]
+  },
+  {
+    "nama": "evaluasi_ambang.csv",
+    "kategori": "sentimen",
+    "judul": "Evaluasi Ambang Pseudo Labeling",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 7,
+    "kolom": [
+      "Ambang",
+      "Jumlah Diterima",
+      "Persentase",
+      "NEGATIF",
+      "NETRAL",
+      "POSITIF"
+    ]
+  },
+  {
+    "nama": "gold_ner_ulasan.csv",
+    "kategori": "sentimen",
+    "judul": "Gold ner ulasan",
+    "jenis": "tabel",
+    "ukuran_kb": 92.9,
+    "baris": 300,
+    "kolom": [
+      "review_id",
+      "No",
+      "Ulasan",
+      "model_text",
+      "gold_kelas",
+      "gold_kelas_nama",
+      "gold_subclass",
+      "gold_subclass_nama",
+      "kelas_aturan",
+      "subclass_aturan",
+      "jumlah_entitas_aturan"
+    ]
+  },
+  {
+    "nama": "gold_standard.csv",
+    "kategori": "sentimen",
+    "judul": "Gold standard",
+    "jenis": "tabel",
+    "ukuran_kb": 91.9,
+    "baris": 300,
+    "kolom": [
+      "review_id",
+      "Ulasan",
+      "model_text",
+      "kelas_adjudikasi",
+      "subclas_adjudikasi",
+      "sentimen_adjudikasi",
+      "label"
+    ]
+  },
+  {
+    "nama": "gold_test.csv",
+    "kategori": "sentimen",
+    "judul": "Gold test",
+    "jenis": "tabel",
+    "ukuran_kb": 4.7,
+    "baris": 30,
+    "kolom": [
+      "review_id",
+      "text",
+      "label"
+    ]
+  },
+  {
+    "nama": "gold_train.csv",
+    "kategori": "sentimen",
+    "judul": "Gold train",
+    "jenis": "tabel",
+    "ukuran_kb": 35.1,
+    "baris": 239,
+    "kolom": [
+      "review_id",
+      "text",
+      "label"
+    ]
+  },
+  {
+    "nama": "gold_validation.csv",
+    "kategori": "sentimen",
+    "judul": "Gold validation",
+    "jenis": "tabel",
+    "ukuran_kb": 4.2,
+    "baris": 31,
+    "kolom": [
+      "review_id",
+      "text",
+      "label"
+    ]
+  },
+  {
+    "nama": "hybrid_gold_pseudo.csv",
+    "kategori": "sentimen",
+    "judul": "Hybrid gold pseudo",
+    "jenis": "tabel",
+    "ukuran_kb": 2561.2,
+    "baris": 17381,
+    "kolom": [
+      "review_id",
+      "text",
+      "sentiment",
+      "sumber_label",
+      "confidence"
+    ]
+  },
+  {
+    "nama": "kandidat_netral_untuk_pakar.csv",
+    "kategori": "sentimen",
+    "judul": "Kandidat netral untuk pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 17.1,
+    "baris": 132,
+    "kolom": [
+      "review_id",
+      "model_text",
+      "keyakinan",
+      "sentimen_pakar1",
+      "sentimen_pakar2",
+      "sentimen_adjudikasi"
+    ]
+  },
+  {
+    "nama": "korpus_final_ner_sentimen.csv",
+    "kategori": "sentimen",
+    "judul": "Corpus Final NER dan Sentimen",
+    "jenis": "tabel",
+    "ukuran_kb": 85649.2,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "sumber",
+      "text_raw",
+      "model_text",
+      "jumlah_token",
+      "jumlah_entitas",
+      "bio_entity",
+      "bio_subclass",
+      "daftar_subclass",
+      "daftar_kelas",
+      "sentimen",
+      "keyakinan",
+      "sumber_label"
+    ]
+  },
+  {
+    "nama": "laporan_aturan_vs_gold_ner_dokumen.csv",
+    "kategori": "sentimen",
+    "judul": "Laporan aturan vs gold ner dokumen",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 11,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "laporan_aturan_vs_gold_ner_ulasan.csv",
+    "kategori": "sentimen",
+    "judul": "Laporan aturan vs gold ner ulasan",
+    "jenis": "tabel",
+    "ukuran_kb": 2.4,
+    "baris": 51,
+    "kolom": [
+      "Unnamed: 0",
+      "precision",
+      "recall",
+      "f1-score",
+      "support"
+    ]
+  },
+  {
+    "nama": "pseudo_label_diterima.csv",
+    "kategori": "sentimen",
+    "judul": "Pseudo Label Diterima",
+    "jenis": "tabel",
+    "ukuran_kb": 2447.2,
+    "baris": 31529,
+    "kolom": [
+      "review_id",
+      "sumber",
+      "model_text",
+      "pseudo_label",
+      "keyakinan"
+    ]
+  },
+  {
+    "nama": "pseudo_label_ditolak.csv",
+    "kategori": "sentimen",
+    "judul": "Pseudo Label Ditolak",
+    "jenis": "tabel",
+    "ukuran_kb": 34459.1,
+    "baris": 306213,
+    "kolom": [
+      "review_id",
+      "sumber",
+      "model_text",
+      "pseudo_label",
+      "keyakinan"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_sentimen.csv",
+    "kategori": "sentimen",
+    "judul": "Riwayat Pelatihan Sentimen",
+    "jenis": "tabel",
+    "ukuran_kb": 1.4,
+    "baris": 10,
+    "kolom": [
+      "eval_loss",
+      "eval_accuracy",
+      "eval_precision",
+      "eval_recall",
+      "eval_f1",
+      "eval_runtime",
+      "eval_samples_per_second",
+      "eval_steps_per_second",
+      "epoch",
+      "step"
+    ]
+  },
+  {
+    "nama": "riwayat_pelatihan_teacher.csv",
+    "kategori": "sentimen",
+    "judul": "Riwayat Pelatihan Teacher",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 3,
+    "kolom": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1_macro",
+      "epoch",
+      "train_loss"
+    ]
+  },
+  {
+    "nama": "tabel_class_weight.csv",
+    "kategori": "sentimen",
+    "judul": "Bobot Kelas untuk Penanganan Ketidakseimbangan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "Kelas",
+      "Jumlah Data",
+      "Persentase",
+      "Class Weight"
+    ]
+  },
+  {
+    "nama": "tabel_cohen_kappa.csv",
+    "kategori": "sentimen",
+    "judul": "Cohen Kappa Kesepakatan Antar Pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 3,
+    "kolom": [
+      "Aspek Dinilai",
+      "Jumlah Data",
+      "Persentase Setuju",
+      "Cohen Kappa",
+      "Galat Baku",
+      "CI 95% Bawah",
+      "CI 95% Atas",
+      "Interpretasi"
+    ]
+  },
+  {
+    "nama": "tabel_cohens_kappa.csv",
+    "kategori": "sentimen",
+    "judul": "Tabel cohens kappa",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 3,
+    "kolom": [
+      "aspek_dinilai",
+      "jumlah_data",
+      "persentase_setuju",
+      "cohens_kappa",
+      "std_error",
+      "ci_bawah_95",
+      "ci_atas_95",
+      "interpretasi"
+    ]
+  },
+  {
+    "nama": "tabel_hasil_per_fold.csv",
+    "kategori": "sentimen",
+    "judul": "Hasil Sentimen per Lipatan Validasi Silang",
+    "jenis": "tabel",
+    "ukuran_kb": 0.7,
+    "baris": 9,
+    "kolom": [
+      "Lipatan",
+      "Data Latih",
+      "Data Validasi",
+      "Data Uji",
+      "F1 Macro Validasi",
+      "Accuracy",
+      "F1 Macro",
+      "F1 Weighted",
+      "F1 NEGATIF",
+      "F1 NETRAL",
+      "F1 POSITIF"
+    ]
+  },
+  {
+    "nama": "tabel_kesesuaian_aturan_vs_pakar.csv",
+    "kategori": "sentimen",
+    "judul": "Kesesuaian Aturan dengan Anotasi Pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 2,
+    "kolom": [
+      "Tingkat",
+      "Recall Keseluruhan (%)",
+      "Precision pada Ulasan Terdeteksi (%)"
+    ]
+  },
+  {
+    "nama": "tabel_keterangan_kode_subclass.csv",
+    "kategori": "sentimen",
+    "judul": "Keterangan Kode Subclass",
+    "jenis": "tabel",
+    "ukuran_kb": 2.2,
+    "baris": 48,
+    "kolom": [
+      "Kode",
+      "Nama Subclass",
+      "Kelas Utama",
+      "Jumlah pada Gold",
+      "Diprediksi Aturan"
+    ]
+  },
+  {
+    "nama": "tabel_matriks_kesepakatan_pakar.csv",
+    "kategori": "sentimen",
+    "judul": "Tabel matriks kesepakatan pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "sentimen_pakar1",
+      "NEGATIF",
+      "NETRAL",
+      "POSITIF"
+    ]
+  },
+  {
+    "nama": "tabel_pembagian_data.csv",
+    "kategori": "sentimen",
+    "judul": "Tabel pembagian data",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "subset",
+      "jumlah",
+      "persentase"
+    ]
+  },
+  {
+    "nama": "tabel_penyelarasan_nama_kelas.csv",
+    "kategori": "sentimen",
+    "judul": "Penyelarasan Nama Kelas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 6,
+    "kolom": [
+      "Format pada Berkas Pakar",
+      "Bentuk Baku Taksonomi",
+      "Status"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_gold_ner_ulasan.csv",
+    "kategori": "sentimen",
+    "judul": "Sebaran Gold Standard NER",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 6,
+    "kolom": [
+      "gold_kelas",
+      "gold_kelas_nama",
+      "Jumlah Ulasan",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_validasi_gold_ner_ulasan.csv",
+    "kategori": "sentimen",
+    "judul": "Validasi Gold Standard NER",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 3,
+    "kolom": [
+      "Yang Dinilai",
+      "Satuan",
+      "Nilai (%)"
+    ]
+  },
+  {
+    "nama": "template_gold_ner_pakar.csv",
+    "kategori": "sentimen",
+    "judul": "Template gold ner pakar",
+    "jenis": "tabel",
+    "ukuran_kb": 216.2,
+    "baris": 4491,
+    "kolom": [
+      "No",
+      "review_id",
+      "posisi",
+      "token",
+      "kelas_adjudikasi",
+      "subclass_adjudikasi",
+      "bio_entity_aturan",
+      "bio_subclass_aturan",
+      "bio_entity_gold",
+      "bio_subclass_gold",
+      "catatan_pakar"
+    ]
+  },
+  {
+    "nama": "tahapan_00_tahap0b_kamus_slang.csv",
+    "kategori": "tahapan",
+    "judul": "00 tahap0b kamus slang",
+    "jenis": "tabel",
+    "ukuran_kb": 1.6,
+    "baris": 128,
+    "kolom": [
+      "slang",
+      "bentuk_formal"
+    ]
+  },
+  {
+    "nama": "tahapan_01_tahap0_data_dimuat.csv",
+    "kategori": "tahapan",
+    "judul": "01 tahap0 data dimuat",
+    "jenis": "tabel",
+    "ukuran_kb": 39176.4,
+    "baris": 388070,
+    "kolom": [
+      "review_id",
+      "tanggal",
+      "text_raw",
+      "tahun",
+      "panjang_kata"
+    ]
+  },
+  {
+    "nama": "tahapan_02_tahap1_cleansing.csv",
+    "kategori": "tahapan",
+    "judul": "02 tahap1 cleansing",
+    "jenis": "tabel",
+    "ukuran_kb": 57377.2,
+    "baris": 387279,
+    "kolom": [
+      "review_id",
+      "text_raw",
+      "text_cleaned"
+    ]
+  },
+  {
+    "nama": "tahapan_03_tahap2_case_folding.csv",
+    "kategori": "tahapan",
+    "judul": "03 tahap2 case folding",
+    "jenis": "tabel",
+    "ukuran_kb": 56049.5,
+    "baris": 387279,
+    "kolom": [
+      "review_id",
+      "text_cleaned",
+      "text_casefolded"
+    ]
+  },
+  {
+    "nama": "tahapan_04_tahap3_filtering.csv",
+    "kategori": "tahapan",
+    "judul": "04 tahap3 filtering",
+    "jenis": "tabel",
+    "ukuran_kb": 52490.2,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_casefolded",
+      "text_filtered"
+    ]
+  },
+  {
+    "nama": "tahapan_05_tahap4_normalization.csv",
+    "kategori": "tahapan",
+    "judul": "05 tahap4 normalization",
+    "jenis": "tabel",
+    "ukuran_kb": 49308.6,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_filtered",
+      "text_normalized"
+    ]
+  },
+  {
+    "nama": "tahapan_06_tahap5_spelling_corrector.csv",
+    "kategori": "tahapan",
+    "judul": "06 tahap5 spelling corrector",
+    "jenis": "tabel",
+    "ukuran_kb": 49642.4,
+    "baris": 385403,
+    "kolom": [
+      "review_id",
+      "text_normalized",
+      "text_spelling_corrected"
+    ]
+  },
+  {
+    "nama": "tahapan_07_tahap6_tokenization.csv",
+    "kategori": "tahapan",
+    "judul": "07 tahap6 tokenization",
+    "jenis": "tabel",
+    "ukuran_kb": 48679.0,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "text_spelling_corrected",
+      "model_text",
+      "jumlah_token"
+    ]
+  },
+  {
+    "nama": "tahapan_08_tahap7_seluruh_kolom.csv",
+    "kategori": "tahapan",
+    "judul": "08 tahap7 seluruh kolom",
+    "jenis": "tabel",
+    "ukuran_kb": 209705.0,
+    "baris": 338793,
+    "kolom": [
+      "review_id",
+      "tanggal",
+      "text_raw",
+      "sumber",
+      "tahun",
+      "panjang_kata",
+      "text_cleaned",
+      "text_casefolded",
+      "text_filtered",
+      "text_normalized",
+      "text_spelling_corrected",
+      "tokens",
+      "jumlah_token",
+      "model_text"
+    ]
+  },
+  {
+    "nama": "evaluasi_akhir_kualitas_korpus.csv",
+    "kategori": "visualisasi",
+    "judul": "Evaluasi akhir kualitas korpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 12,
+    "kolom": [
+      "Indikator",
+      "Nilai",
+      "Persentase/Keterangan"
+    ]
+  },
+  {
+    "nama": "gambar_confusion_matrix_aturan_subclass_ulasan.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix aturan subclass ulasan",
+    "jenis": "gambar",
+    "ukuran_kb": 661.3
+  },
+  {
+    "nama": "gambar_confusion_matrix_aturan_vs_pakar.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix aturan vs pakar",
+    "jenis": "gambar",
+    "ukuran_kb": 227.5
+  },
+  {
+    "nama": "gambar_confusion_matrix_gabungan.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix gabungan",
+    "jenis": "gambar",
+    "ukuran_kb": 103.8
+  },
+  {
+    "nama": "gambar_confusion_matrix_gabungan_ternormalisasi.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix gabungan ternormalisasi",
+    "jenis": "gambar",
+    "ukuran_kb": 116.3
+  },
+  {
+    "nama": "gambar_confusion_matrix_kesepakatan_pakar.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix kesepakatan pakar",
+    "jenis": "gambar",
+    "ukuran_kb": 97.7
+  },
+  {
+    "nama": "gambar_confusion_matrix_model_vs_pakar_ulasan.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix model vs pakar ulasan",
+    "jenis": "gambar",
+    "ukuran_kb": 230.8
+  },
+  {
+    "nama": "gambar_confusion_matrix_ner_entity.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix ner entity",
+    "jenis": "gambar",
+    "ukuran_kb": 352.8
+  },
+  {
+    "nama": "gambar_confusion_matrix_ner_entity_ternormalisasi.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix ner entity ternormalisasi",
+    "jenis": "gambar",
+    "ukuran_kb": 368.0
+  },
+  {
+    "nama": "gambar_confusion_matrix_ner_subclass.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix ner subclass",
+    "jenis": "gambar",
+    "ukuran_kb": 560.2
+  },
+  {
+    "nama": "gambar_confusion_matrix_ner_subclass_ternormalisasi.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix ner subclass ternormalisasi",
+    "jenis": "gambar",
+    "ukuran_kb": 571.8
+  },
+  {
+    "nama": "gambar_confusion_matrix_sentimen.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar confusion matrix sentimen",
+    "jenis": "gambar",
+    "ukuran_kb": 81.5
+  },
+  {
+    "nama": "gambar_coverage_per_tipe_entitas.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar coverage per tipe entitas",
+    "jenis": "gambar",
+    "ukuran_kb": 83.4
+  },
+  {
+    "nama": "gambar_frekuensi_istilah_teratas.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar frekuensi istilah teratas",
+    "jenis": "gambar",
+    "ukuran_kb": 275.1
+  },
+  {
+    "nama": "gambar_jumlah_data_hasil_scraping_per_tahun.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar jumlah data hasil scraping per tahun",
+    "jenis": "gambar",
+    "ukuran_kb": 91.1
+  },
+  {
+    "nama": "gambar_matriks_BI_entity.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks bi entity",
+    "jenis": "gambar",
+    "ukuran_kb": 295.7
+  },
+  {
+    "nama": "gambar_matriks_BI_subclass.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks bi subclass",
+    "jenis": "gambar",
+    "ukuran_kb": 635.1
+  },
+  {
+    "nama": "gambar_matriks_O_entity.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks o entity",
+    "jenis": "gambar",
+    "ukuran_kb": 96.5
+  },
+  {
+    "nama": "gambar_matriks_O_subclass.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks o subclass",
+    "jenis": "gambar",
+    "ukuran_kb": 100.3
+  },
+  {
+    "nama": "gambar_matriks_prefiks_bio_entity.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks prefiks bio entity",
+    "jenis": "gambar",
+    "ukuran_kb": 86.9
+  },
+  {
+    "nama": "gambar_matriks_prefiks_bio_subclass.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar matriks prefiks bio subclass",
+    "jenis": "gambar",
+    "ukuran_kb": 89.8
+  },
+  {
+    "nama": "gambar_perbandingan_corpus_domain_vs_indo4b.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar perbandingan corpus domain vs indo4b",
+    "jenis": "gambar",
+    "ukuran_kb": 229.8
+  },
+  {
+    "nama": "gambar_perbandingan_korpus_indo4b.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar perbandingan korpus indo4b",
+    "jenis": "gambar",
+    "ukuran_kb": 297.2
+  },
+  {
+    "nama": "gambar_pertumbuhan_vocabulary.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar pertumbuhan vocabulary",
+    "jenis": "gambar",
+    "ukuran_kb": 137.1
+  },
+  {
+    "nama": "gambar_proporsi_sentimen.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar proporsi sentimen",
+    "jenis": "gambar",
+    "ukuran_kb": 80.0
+  },
+  {
+    "nama": "gambar_sebaran_kelas_utama.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar sebaran kelas utama",
+    "jenis": "gambar",
+    "ukuran_kb": 109.1
+  },
+  {
+    "nama": "gambar_sebaran_sentimen.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar sebaran sentimen",
+    "jenis": "gambar",
+    "ukuran_kb": 63.7
+  },
+  {
+    "nama": "gambar_wordcloud_entitas_aktor.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud entitas aktor",
+    "jenis": "gambar",
+    "ukuran_kb": 248.4
+  },
+  {
+    "nama": "gambar_wordcloud_entitas_aspek.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud entitas aspek",
+    "jenis": "gambar",
+    "ukuran_kb": 1202.1
+  },
+  {
+    "nama": "gambar_wordcloud_entitas_identifier.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud entitas identifier",
+    "jenis": "gambar",
+    "ukuran_kb": 447.5
+  },
+  {
+    "nama": "gambar_wordcloud_entitas_masalah.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud entitas masalah",
+    "jenis": "gambar",
+    "ukuran_kb": 883.8
+  },
+  {
+    "nama": "gambar_wordcloud_entitas_saran.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud entitas saran",
+    "jenis": "gambar",
+    "ukuran_kb": 541.4
+  },
+  {
+    "nama": "gambar_wordcloud_istilah_domain.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud istilah domain",
+    "jenis": "gambar",
+    "ukuran_kb": 1809.4
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_feature_design.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas feature design",
+    "jenis": "gambar",
+    "ukuran_kb": 2208.9
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_feature_error.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas feature error",
+    "jenis": "gambar",
+    "ukuran_kb": 2230.5
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_iconnet.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas iconnet",
+    "jenis": "gambar",
+    "ukuran_kb": 2225.8
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_listriqu.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas listriqu",
+    "jenis": "gambar",
+    "ukuran_kb": 1948.6
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_registration.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas registration",
+    "jenis": "gambar",
+    "ukuran_kb": 2196.4
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_service_o2o.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas service o2o",
+    "jenis": "gambar",
+    "ukuran_kb": 2282.4
+  },
+  {
+    "nama": "gambar_wordcloud_kelas_umum.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud kelas umum",
+    "jenis": "gambar",
+    "ukuran_kb": 2252.1
+  },
+  {
+    "nama": "gambar_wordcloud_korpus_keseluruhan.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud korpus keseluruhan",
+    "jenis": "gambar",
+    "ukuran_kb": 2358.5
+  },
+  {
+    "nama": "gambar_wordcloud_sentimen_negatif.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud sentimen negatif",
+    "jenis": "gambar",
+    "ukuran_kb": 1704.0
+  },
+  {
+    "nama": "gambar_wordcloud_sentimen_positif.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud sentimen positif",
+    "jenis": "gambar",
+    "ukuran_kb": 1617.5
+  },
+  {
+    "nama": "gambar_wordcloud_token_bukan_entitas.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud token bukan entitas",
+    "jenis": "gambar",
+    "ukuran_kb": 2124.9
+  },
+  {
+    "nama": "gambar_wordcloud_token_entitas.png",
+    "kategori": "visualisasi",
+    "judul": "Gambar wordcloud token entitas",
+    "jenis": "gambar",
+    "ukuran_kb": 1406.8
+  },
+  {
+    "nama": "tabel_cakupan_istilah_domain.csv",
+    "kategori": "visualisasi",
+    "judul": "Cakupan Istilah Domain",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 1,
+    "kolom": [
+      "Total Token Corpus",
+      "Ukuran Vocabulary",
+      "Istilah Domain Terdaftar",
+      "Istilah Ditemukan",
+      "Coverage Istilah (%)",
+      "Token Istilah Domain",
+      "Coverage Token (%)"
+    ]
+  },
+  {
+    "nama": "tabel_daftar_kata_oov.csv",
+    "kategori": "visualisasi",
+    "judul": "Daftar Kata OOV",
+    "jenis": "tabel",
+    "ukuran_kb": 477.0,
+    "baris": 39584,
+    "kolom": [
+      "Kata",
+      "Frekuensi",
+      "Jumlah Subtoken"
+    ]
+  },
+  {
+    "nama": "tabel_distribusi_istilah_per_kelas.csv",
+    "kategori": "visualisasi",
+    "judul": "Distribusi Istilah per Kelas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.3,
+    "baris": 7,
+    "kolom": [
+      "Kelas Utama",
+      "Istilah Terdaftar",
+      "Istilah Ditemukan",
+      "Coverage (%)",
+      "Total Token"
+    ]
+  },
+  {
+    "nama": "tabel_distribusi_istilah_per_tipe.csv",
+    "kategori": "visualisasi",
+    "judul": "Distribusi Istilah per Tipe Entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Tipe Entitas",
+      "Istilah Terdaftar",
+      "Istilah Ditemukan",
+      "Coverage (%)",
+      "Total Token"
+    ]
+  },
+  {
+    "nama": "tabel_evaluasi_akhir_kualitas_korpus.csv",
+    "kategori": "visualisasi",
+    "judul": "Tabel evaluasi akhir kualitas korpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 12,
+    "kolom": [
+      "Indikator",
+      "Nilai",
+      "Persentase/Keterangan"
+    ]
+  },
+  {
+    "nama": "tabel_evaluasi_akhir_kualitas_korpus_tambahan.csv",
+    "kategori": "visualisasi",
+    "judul": "Tabel evaluasi akhir kualitas korpus tambahan",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 4,
+    "kolom": [
+      "Indikator",
+      "Nilai",
+      "Persentase/Keterangan"
+    ]
+  },
+  {
+    "nama": "tabel_istilah_belum_terwakili.csv",
+    "kategori": "visualisasi",
+    "judul": "Tabel istilah belum terwakili",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 5,
+    "kolom": [
+      "Istilah Belum Terwakili"
+    ]
+  },
+  {
+    "nama": "tabel_istilah_domain_teratas.csv",
+    "kategori": "visualisasi",
+    "judul": "Istilah Domain Teratas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.4,
+    "baris": 20,
+    "kolom": [
+      "Istilah Domain",
+      "Frekuensi",
+      "Persentase Token"
+    ]
+  },
+  {
+    "nama": "tabel_istilah_teratas_korpus.csv",
+    "kategori": "visualisasi",
+    "judul": "Kata Teratas pada Corpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 25,
+    "kolom": [
+      "Istilah",
+      "Frekuensi",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_ringkasan_tipe_entitas.csv",
+    "kategori": "visualisasi",
+    "judul": "Ringkasan Tipe Entitas",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 5,
+    "kolom": [
+      "Tipe Entitas",
+      "Jumlah_Token",
+      "Token_Unik",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_kelas_utama.csv",
+    "kategori": "visualisasi",
+    "judul": "Sebaran Kelas Utama",
+    "jenis": "tabel",
+    "ukuran_kb": 0.2,
+    "baris": 7,
+    "kolom": [
+      "Kelas Utama",
+      "Jumlah Ulasan",
+      "Persentase"
+    ]
+  },
+  {
+    "nama": "tabel_sebaran_sentimen.csv",
+    "kategori": "visualisasi",
+    "judul": "Tabel sebaran sentimen",
+    "jenis": "tabel",
+    "ukuran_kb": 0.1,
+    "baris": 3,
+    "kolom": [
+      "sentimen",
+      "jumlah_ulasan",
+      "jumlah_token"
+    ]
+  },
+  {
+    "nama": "tabel_validasi_statistik_korpus.csv",
+    "kategori": "visualisasi",
+    "judul": "Validasi Statistik Korpus",
+    "jenis": "tabel",
+    "ukuran_kb": 0.5,
+    "baris": 9,
+    "kolom": [
+      "Indikator",
+      "Nilai",
+      "Keterangan"
+    ]
+  },
+  {
+    "nama": "wordcloud_domain_kelistrikan.png",
+    "kategori": "visualisasi",
+    "judul": "Wordcloud domain kelistrikan",
+    "jenis": "gambar",
+    "ukuran_kb": 2058.6
+  }
+]
