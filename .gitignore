@@ -1,0 +1,23 @@
+# Bobot model tidak ikut diunggah, ukurannya terlalu besar.
+model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Lingkungan mandiri dan simpanan sementara.
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Rahasia jangan pernah ikut terunggah.
+.streamlit/secrets.toml
+
+# Arsip pemampatan.
+*.zip
+
+.DS_Store
+Thumbs.db

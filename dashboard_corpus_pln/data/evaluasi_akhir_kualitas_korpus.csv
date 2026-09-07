@@ -1,0 +1,13 @@
+﻿Indikator,Nilai,Persentase/Keterangan
+Jumlah dokumen,338793,
+Total token,3067816,
+Unique token,51749,
+Type-Token Ratio,0.0169,
+Hapax legomena,26593,51.39% vocabulary
+Istilah domain ditemukan,306/410,74.63%
+Document coverage domain,237282,70.04%
+Token coverage domain,626267,20.41%
+OOV Indo4B tingkat tipe,5609,10.84%
+OOV Indo4B tingkat token,21812,0.71%
+Dokumen berentitas NER,102878,30.37%
+Total rentang entitas,147626,
